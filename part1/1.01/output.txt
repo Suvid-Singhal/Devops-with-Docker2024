@@ -1,0 +1,10 @@
+Script started on 2024-05-30 22:12:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="181" LINES="42"]
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ docker container ls -a [K
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+a4dc12ad1c67   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes               80/tcp    serene_beaver
+6acefcf5902a   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 3 minutes ago             relaxed_elbakyan
+8d6ec67d1bfe   nginx     "/docker-entrypoint.…"   9 minutes ago   Exited (0) 7 minutes ago             eager_allen
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ [?2004l
+exit
+
+Script done on 2024-05-30 22:12:35+05:30 [COMMAND_EXIT_CODE="0"]
