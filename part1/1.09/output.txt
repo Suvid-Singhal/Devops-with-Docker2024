@@ -1,0 +1,17 @@
+Script started on 2024-05-31 16:48:40+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="181" LINES="44"]
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ rm log.txt [6Pclearat log.txt docker run -v "$(pwd)/log.txt:/usr/src/app/text.log" -it devopsdockeruh/simple-web-service[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch log.txt[Kdocker run -v "$(pwd)/log.txt:/usr/src/app/text.log" -it devopsdockeruh/simple-web-service[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch log.txt[K
+[?2004l[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ touch log.txt[2Prm log.txt [6Pclearat log.txt [7Plearrm log.txt touch log.txt[Ktouch log.txt[2Prm log.txt [6Pclearat log.txt docker run -v "$(pwd)/log.txt:/usr/src/app/text.log" -it devopsdockeruh/simple-web-service
+[?2004lStarting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ cat log.txt 
+[?2004l2024-05-31 11:18:52 +0000 UTC
+2024-05-31 11:18:54 +0000 UTC
+2024-05-31 11:18:56 +0000 UTC
+2024-05-31 11:18:58 +0000 UTC
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ [?2004l
+exit
+
+Script done on 2024-05-31 16:49:03+05:30 [COMMAND_EXIT_CODE="0"]

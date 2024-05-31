@@ -1,0 +1,89 @@
+Script started on 2024-05-31 00:58:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="181" LINES="44"]
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ [7mdocker run -it devopsdockeruh/pull_exercise[27mdocker run -it devopsdockeruh/pull_exercise
+[?2004lUnable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+[1A[2K8e402f1a9c57: Pulling fs layer [1B
+[1A[2K5e2195587d10: Pulling fs layer [1B
+[1A[2K6f595b2fc66d: Pulling fs layer [1B
+[1A[2K165f32bf4e94: Pulling fs layer [1B
+[1A[2K67c4f504c224: Pulling fs layer [1B[2A[2K165f32bf4e94: Waiting [2B[1A[2K67c4f504c224: Waiting [1B[5A[2K8e402f1a9c57: Downloading [>                                                  ]  28.09kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [>                                                  ]  217.8kB/21.6MB[4B[3A[2K6f595b2fc66d: Downloading [>                                                  ]  13.69kB/1.332MB[3B[4A[2K5e2195587d10: Downloading [======>                                            ]  2.719MB/21.6MB[4B[5A[2K8e402f1a9c57: Downloading [=================>                                 ]  965.9kB/2.755MB[5B[3A[2K6f595b2fc66d: Downloading [========================================>          ]  1.081MB/1.332MB[3B[3A[2K6f595b2fc66d: Verifying Checksum [3B[3A[2K6f595b2fc66d: Download complete [3B[5A[2K8e402f1a9c57: Verifying Checksum [5B[5A[2K8e402f1a9c57: Download complete [5B[5A[2K8e402f1a9c57: Extracting [>                                                  ]  32.77kB/2.755MB[5B[4A[2K5e2195587d10: Downloading [================>                                  ]  7.073MB/21.6MB[4B[5A[2K8e402f1a9c57: Extracting [======================================>            ]  2.097MB/2.755MB[5B[4A[2K5e2195587d10: Downloading [===========================>                       ]  11.88MB/21.6MB[4B[5A[2K8e402f1a9c57: Extracting [==================================================>]  2.755MB/2.755MB[5B[5A[2K8e402f1a9c57: Pull complete [5B[4A[2K5e2195587d10: Downloading [=======================================>           ]  16.89MB/21.6MB[4B[4A[2K5e2195587d10: Verifying Checksum [4B[4A[2K5e2195587d10: Download complete [4B[4A[2K5e2195587d10: Extracting [>                                                  ]  229.4kB/21.6MB[4B[4A[2K5e2195587d10: Extracting [======>                                            ]  2.753MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==============>                                    ]  6.423MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==========================>                        ]  11.24MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==================================>                ]  14.91MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [======================================>            ]  16.52MB/21.6MB[4B[2A[2K165f32bf4e94: Downloading [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Verifying Checksum [2B[2A[2K165f32bf4e94: Download complete [2B[4A[2K5e2195587d10: Extracting [========================================>          ]  17.43MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=========================================>         ]  18.12MB/21.6MB[4B[1A[2K67c4f504c224: Downloading [=======>                                           ]  1.369kB/9.267kB[1B[1A[2K67c4f504c224: Downloading [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Verifying Checksum [1B[1A[2K67c4f504c224: Download complete [1B[4A[2K5e2195587d10: Extracting [==========================================>        ]  18.35MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [===========================================>       ]  18.81MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [============================================>      ]  19.04MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=============================================>     ]   19.5MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=============================================>     ]  19.73MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [===============================================>   ]  20.41MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [================================================>  ]  20.87MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [=================================================> ]  21.33MB/21.6MB[4B[4A[2K5e2195587d10: Extracting [==================================================>]   21.6MB/21.6MB[4B[4A[2K5e2195587d10: Pull complete [4B[3A[2K6f595b2fc66d: Extracting [=>                                                 ]  32.77kB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB[3B[3A[2K6f595b2fc66d: Pull complete [3B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Extracting [==================================================>]     108B/108B[2B[2A[2K165f32bf4e94: Pull complete [2B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB[1B[1A[2K67c4f504c224: Pull complete [1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+[1G[0JGive me the password: [23Ghelsinki
+helsinki is not the correct password, please try again
+
+[1G[0JGive me the password: [23G[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ focker[K[K[K[K[K[Kdocker container ls -a
+[?2004lCONTAINER ID   IMAGE                          COMMAND           CREATED          STATUS                     PORTS     NAMES
+d607385f877b   devopsdockeruh/pull_exercise   "node index.js"   15 seconds ago   Exited (0) 6 seconds ago             silly_bouman
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ docker run [K[K[K[Kstart [7msilly_bouman[27msilly_bouman
+[?2004lsilly_bouman
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ docker exec silly_bouman cst node.js[C[1P[1@a[C[C[C[C[C[C[C[1P.js[1P.js[1P.js[1P.jsi.jsn.jsd.jse.jsx.js
+[?2004lconst readline = require('readline')
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
+
+const close = (version) => () => {
+  const message = {
+    "close": "Closing now",
+    "exit": "Exiting now",
+    "quit": "Quitting now",
+    "empty": "Empty string was given, quitting now. Input help for more info"
+  }
+  console.log(message[version])
+  return false
+}
+
+const help = () => () => {
+  console.log('Input exit to exit, quit to quit or close to close. You can also give empty string to quit')
+  return true
+}
+
+const victory = () => () => {
+  console.log('You found the correct password. Secret message is:\n"This is the secret message"')
+  return false
+}
+
+const KNOWN_INPUTS = {
+  "exit": close('exit'),
+  "close": close('close'),
+  "quit": close('quit'),
+  "": close('empty'),
+  "help": help(),
+  "basics": victory()
+}
+
+
+const handlePassword = (password) => {
+  const keepGoing = KNOWN_INPUTS[password.toLowerCase()]
+  if (keepGoing === undefined) {
+    console.log(`${password} is not the correct password, please try again`)
+    return true
+  }
+  return keepGoing()
+}
+
+const askPassword = () => new Promise(resolve => rl.question('Give me the password: ', (p) => resolve(p)))
+
+const passwordLoop = async () => {
+  let keepAsking = true
+  while (keepAsking) {
+    const password = await askPassword()
+    keepAsking = handlePassword(password)
+    console.log('')
+  }
+  rl.close()
+}
+
+passwordLoop()
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ docker attach [7msilly_bouman[27msilly_bouman
+[?2004l[1G[0JGive me the password: [23G[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[?2004h]0;yourmom@yourmom-virtual-machine: ~/Desktop[01;32myourmom@yourmom-virtual-machine[00m:[01;34m~/Desktop[00m$ [?2004l
+exit
+
+Script done on 2024-05-31 00:59:19+05:30 [COMMAND_EXIT_CODE="0"]
