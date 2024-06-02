@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: node:14.16-alpine3.13
+    build: ./example-frontend
+    ports:
+      - 5000:5000
+    command: serve -s -l 5000 build
+  backend:
+    image: golang:1.16-alpine
+    build: ./example-backend
+    ports:
+      - 8000:8000
+    command: ./server

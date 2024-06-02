@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+
+  frontend:
+    image: node:14.16-alpine3.13
+    build: ./example-frontend
+    ports:
+      - 5000:5000
+    command: serve -s -l 5000 build
+    container_name: frontend
+
+  backend:
+    image: golang:1.16-alpine
+    build: ./example-backend
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - 8000:8000
+    command: ./server
+    container_name: backend
+
+  redis:
+    image: redis:alpine
+    container_name: redis
